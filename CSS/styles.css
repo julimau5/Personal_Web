@@ -1,0 +1,351 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+/* variables */
+:root{
+    --darkred-color:#933333;
+    --darkgrey-color:#707070;
+    --white-color: white;
+    --cream-color: #DFD7D4;
+    --opacity: 80%;
+}
+/* styles */
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;   
+    font-family: 'Martel', serif;
+    color: var(--darkgrey-color);
+    height: 100vh;
+}
+
+p{
+    opacity: var(--opacity);
+}
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+body::-webkit-scrollbar-track{
+    background: var(--white-color);
+} 
+
+body::-webkit-scrollbar-thumb{
+    background: var(--cream-color);
+} 
+
+/* -----------------------------ESTERNAL DIV FOR CENTERING */
+.external{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80vh;
+}
+/* -----------------------------ESTERNAL DIV FOR CENTERING */
+
+/* ----------------------------------TITELS */
+
+h1 {
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-align: center;
+    align-content: center;
+    color: var(--darkgrey-color);
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    opacity: 80%;
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    align-content: center;
+    color:var(--darkred-color);
+    top: 0%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* TITLE SECTIONS HOME  */
+
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    align-content: center;
+    color: var(--white-color);
+    top: 0%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    text-shadow: 0px 0px 5px #969393;
+}
+
+h3:hover{
+    font-size:130%;
+}
+
+/* TITLE SECTIONS HOME  */
+
+/* TITLE SIDE BAR  */
+
+h4 {
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-align: center;
+    align-content: center;
+    color: var(--darkgrey-color);
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    opacity: 60%;
+    font-size: 3vh;
+}
+/* TITLE SIDE BAR  */
+
+/* TITLE BLOG POST  */
+h5 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--white-color);
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    text-shadow: 0px 0px 5px #969393;
+}
+
+h6{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--white-color);
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    text-shadow: 0px 0px 5px #969393;
+}
+
+/* TITLE BLOG POST  */
+
+/* LINKS  */
+a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    font-size: 101%;
+    text-shadow: 0px 0px 5px #f5dfdf;
+}
+
+/* ----------------------------------TITELS */
+
+/* ----------------------NAVBAR */
+
+nav {
+    width: 100%;
+    padding-top: 5px;
+    background-color: none;
+}
+
+.navdeco{
+    background-image: url("../Bilds/upper_nav_decoration.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-position-y: 100;
+    background-size: cover;
+    padding-top: 2px;
+}
+
+/* ----------------------NAVBAR */
+
+/* ------------------------ Main Section Home (CSS Normi Divs)*/
+
+.description{
+    text-align: center;
+    padding: 20px;
+}
+
+.sections {
+    text-align: center;
+    min-width: 225px;
+}
+
+.content_s1 {
+    background-image: url("../Bilds/geschichte_section.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 300px;    
+    width: 225px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sections .content_s2 {
+    background-image: url("../Bilds/fotografie_section.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 300px;    
+    width: 225px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sections .content_s3 {
+    background-image: url("../Bilds/uber_mich_section.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 300px;    
+    width: 225px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sections .content {
+    height: 100%;    
+    width: 100%;
+    max-width: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sections h3{
+    padding-top: 150px;
+}
+
+/* ------------------------ Main Section Home(CSS Normi Divs)*/
+
+/* ------------------------ Main Section Blog Kurzgeschichten*/
+
+.side_text {
+    top: 60px;
+    left: 0;
+    width: 40px;
+    height: 5px;
+    position: relative;
+}
+
+.side_text h4{
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: fixed;
+}
+
+.blog_image{
+    width: 100%;
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog_image h5{
+    text-align: right;
+    position: relative;
+    top: 60%;
+}
+
+.blog_image h6{
+    text-align: right;
+    position: relative;
+    top: 65%;
+    padding-right: 5px;
+}
+
+.blog_image h2{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--white-color);
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    text-shadow: 0px 0px 5px #969393;
+    text-align: right;
+    position: relative;
+    top: 15%;
+    padding-right: 5px;
+}
+
+.blog_content p{
+    font-size: 15px;
+}
+/* ------------------------ Main Section Blog Kurzgeschichten*/
+
+/* ------------------------ Main Section Fotografie*/
+
+.galery_image{
+    text-align: center;
+}
+
+.galery_image img{
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: cover;
+    position: relative;
+}
+
+.foto_description{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    align-content: center;
+    color:var(--darkred-color);
+    padding-bottom: 20px;
+}
+
+/* ------------------------ Main Section Fotografie*/
+
+/* ------------------------Footer Start */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: var(--cream-color);
+}

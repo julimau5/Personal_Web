@@ -1,0 +1,36 @@
+@media (max-width: 770px){
+    .row{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col-4{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .col-6{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .footer{
+        position: sticky;
+    }
+    
+    .side_text{
+        opacity: 0%;
+    }
+
+    .container{
+        padding: 0;
+    }
+
+    .external{
+        height: auto;
+    }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/animation.css">
+    <title>Die Sehnsuch</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Julius+Sans+One&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url('Bilds/intro_back_1.jpg');  
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: center;
+        background-size: cover;
+        background-color: black;
+        height: 100%;        
+    }
+    h1 {
+        font-family: "Cinzel", serif;
+        font-size: 10vh;
+        text-transform: uppercase;
+        letter-spacing: 3rem;
+        align-content: center;
+        color: white;
+        text-shadow: 0px 0px 5px #969393;
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+    h2 {
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 15px;
+        align-content: center;
+        color: white;
+        top: 0%;
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+
+    a {
+        text-emphasis: none;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover{    
+        font-size: 105%;
+        text-shadow: 0px 0px 30px #969393;
+    }
+
+    .outer {
+        display: table;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .middle {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .inner {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    @media (max-width: 650px) {
+        h1{
+            font-size: 3vh;
+            letter-spacing: 1rem;
+        } 
+
+        h2{
+            font-size: 10px;
+            letter-spacing: 8px;
+        }
+    }
+</style>
+
+<body>
+    <div class="outer">
+        <div class="middle">
+            <div class="inner fadeIn">
+            <h1> <a href="home.html">Die Sehnsuch</a></h1>
+            <h2>by Julian</h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
